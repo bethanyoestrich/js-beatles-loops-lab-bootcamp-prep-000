@@ -25,10 +25,9 @@ function iLoveTheBeatles (number){
   var array = []; 
   do{
     var message = "I love the Beatles!".repeat(parseInt(number)+1)
-    array.push(message)
-    return array
-    }
-    while (parseInt(number) < 15);
+    array.push(message);
+  } while (parseInt(number) < 15);
+  return array;
 }
 
 function iLoveTheBeatles(number) {
