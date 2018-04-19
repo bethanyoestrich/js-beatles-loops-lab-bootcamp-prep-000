@@ -44,6 +44,9 @@ return array;
 
 function iLoveTheBeatles(number) {
   let array = [];
-  console.log(number)
+  do {
+    array.push("I love the Beatles!")
+    number++;
+  } while (number < 15);
   return array;
 }
