@@ -20,7 +20,7 @@ function johnLennonFacts (factArray){
   return array; 
 }
 
-/*
+
 function iLoveTheBeatles (number){
   var array = []; 
   do{
@@ -40,8 +40,20 @@ do {
 } while (number < 15 && iLoveTheBeatles);
 return array;
 }
-*/
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function iLoveTheBeatles(number) {
   let array = [];
   do {
@@ -49,4 +61,4 @@ function iLoveTheBeatles(number) {
     number++;
   } while (number < 15);
   return array;
-}
+}*/
