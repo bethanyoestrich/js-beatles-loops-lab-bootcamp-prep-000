@@ -21,15 +21,6 @@ function johnLennonFacts (factArray){
 }
 
 
-function iLoveTheBeatles (number){
-  var array = []; 
-  do{
-    var message = "I love the Beatles!".repeat(parseInt(number)+1)
-    array.pop(message)
-    return array
-    }
-    while (parseInt(number) < 15);
-}
 
 function iLoveTheBeatles(number) {
   return "I love the Beatles"
