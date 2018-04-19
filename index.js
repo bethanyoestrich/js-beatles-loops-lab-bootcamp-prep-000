@@ -22,6 +22,7 @@ function johnLennonFacts (factArray){
 
 function iLoveTheBeatles (number){
   var array = []; 
+  let index = 0
   do{
     var message = "I love the Beatles!".repeat(parseInt(number))
     array.push(message)
