@@ -28,6 +28,6 @@ function iLoveTheBeatles (number){
     }
     while (parseInt(number) < 15);
     
-    return array
+    return array; 
 }
 
