@@ -25,7 +25,6 @@ function johnLennonFacts (factArray){
 function iLoveTheBeatles(number) {
   return "I love the Beatles"
 }
- 
 do {
   return ('I love the Beatles')
-} while (number < 15);
+} while (number < 15 && iLoveTheBeatles);
