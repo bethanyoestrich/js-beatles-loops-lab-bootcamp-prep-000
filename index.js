@@ -37,4 +37,4 @@ function iLoveTheBeatles(number) {
  
 do {
   return ('I love the Beatles')
-} while (maybeTrue());
+} while (number < 15);
