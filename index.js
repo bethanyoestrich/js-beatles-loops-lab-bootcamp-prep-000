@@ -22,13 +22,12 @@ function johnLennonFacts (factArray){
 
 function iLoveTheBeatles (number){
   var array = []; 
-  var numberNumber = parseInt(number)
   do{
-    var message = "I love the Beatles!".repeat(numberNumber)
+    var message = "I love the Beatles!".repeat(parseInt(number))
     array.push(message)
     return array
     }
-    while (numberNumber) < 15);
+    while (parseInt(number)) < 15);
     
 }
 
