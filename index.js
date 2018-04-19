@@ -23,7 +23,7 @@ function johnLennonFacts (factArray){
 function iLoveTheBeatles (number){
   var array = []; 
   do{
-    var message = "I love the Beatles!"
+    var message = "I love the Beatles!".repeat($number)
     array.push(message)
     return array
     }
