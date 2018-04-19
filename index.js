@@ -24,22 +24,12 @@ function johnLennonFacts (factArray){
 function iLoveTheBeatles (number){
   var array = []; 
   do{
-    var message = "I love the Beatles!".repeat(parseInt(number)+1)
+    var message = "I love the Beatles!";//.repeat(number+1)
     array.push(message);
-  } while (parseInt(number) < 15);
+    number++
+  } while (number < 15);
   return array;
 }
-
-function iLoveTheBeatles(number) {
-  return "I love the Beatles"
-}
-var array = []
-do {
-  return ('I love the Beatles')
-} while (number < 15 && iLoveTheBeatles);
-return array;
-}
-
 
 
 
