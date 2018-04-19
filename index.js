@@ -26,8 +26,8 @@ function iLoveTheBeatles (number){
     var message = "I love the Beatles!"
     array.push(message)
     }
+    return array; 
     while (parseInt(number) < 15);
     
-    return array; 
 }
 
