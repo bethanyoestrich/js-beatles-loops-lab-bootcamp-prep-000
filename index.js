@@ -42,7 +42,7 @@ return array;
 }
 */
 
-function iLoveTheBeatles(number)_{
+function iLoveTheBeatles(number) {
   let array = [];
   console.log(number)
   return array;
