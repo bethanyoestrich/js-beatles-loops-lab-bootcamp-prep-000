@@ -34,7 +34,7 @@ function iLoveTheBeatles (number){
 
 function iLoveTheBeatles (number){
   var array = []; 
-  let index = 0
+  let index = 0; 
   do{
     var message = "I love the Beatles!".repeat(parseInt(number)+1)
     array.push(message)
