@@ -30,3 +30,11 @@ function iLoveTheBeatles (number){
     }
     while (parseInt(number) < 15);
 }
+
+function iLoveTheBeatles(number) {
+  return "I love the Beatles"
+}
+ 
+do {
+  return ('I love the Beatles')
+} while (maybeTrue());
